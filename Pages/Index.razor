@@ -24,9 +24,9 @@
 
     @if (!string.IsNullOrEmpty(QrCodeText))
     {
-        <MudPaper MaxWidth="auto" Style="margin:auto" >
+        <MudPaper class="paper-class" MaxWidth="auto" Style="margin:auto" >
             <div class="qr-container">
-                <img width="400" height="400" src="@QrCodeText" alt="código Qr">
+                <img width="400" height="400" src="@QrCodeText" alt="@QrCodeText">
             </div>
         </MudPaper>
     }

@@ -22,18 +22,13 @@ namespace GeneradorQR.Pages;
                 GeneradorQR();
         }
         protected void GeneradorQR(){
-
             QRCodeGenerator qrGenerador =  new QRCodeGenerator();
             QRCodeData qrCodeData = qrGenerador.CreateQrCode(SubmittedUrl, QRCodeGenerator.ECCLevel.Q);
             BitmapByteQRCode qrCode = new BitmapByteQRCode(qrCodeData);
-            //se guarda la imagen en un array de tipo byte.
             byte[] qrCodeAsByteArr = qrCode.GetGraphic(20);
-
             var ms = new MemoryStream(qrCodeAsByteArr);
-
-            QrCodeText = "data:image/png;base64" + Convert.ToBase64String(ms.ToArray());
+            QrCodeText = "data:image/png;base64," + Convert.ToBase64String(ms.ToArray());
             SubmittedUrl = String.Empty;
-
 
         }
     }

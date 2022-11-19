@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/dobleTr/Proyects/GeneradorQR/GeneradorQR.csproj": {}
+    "C:\\Users\\dmaldonado\\Curso\\GeneradorQR\\GeneradorQR.csproj": {}
   },
   "projects": {
-    "/home/dobleTr/Proyects/GeneradorQR/GeneradorQR.csproj": {
+    "C:\\Users\\dmaldonado\\Curso\\GeneradorQR\\GeneradorQR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/dobleTr/Proyects/GeneradorQR/GeneradorQR.csproj",
+        "projectUniqueName": "C:\\Users\\dmaldonado\\Curso\\GeneradorQR\\GeneradorQR.csproj",
         "projectName": "GeneradorQR",
-        "projectPath": "/home/dobleTr/Proyects/GeneradorQR/GeneradorQR.csproj",
-        "packagesPath": "/home/dobleTr/.nuget/packages/",
-        "outputPath": "/home/dobleTr/Proyects/GeneradorQR/obj/",
+        "projectPath": "C:\\Users\\dmaldonado\\Curso\\GeneradorQR\\GeneradorQR.csproj",
+        "packagesPath": "C:\\Users\\dmaldonado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dmaldonado\\Curso\\GeneradorQR\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/dobleTr/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dmaldonado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,7 +77,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.10, 6.0.10]"
+              "version": "[6.0.11, 6.0.11]"
             }
           ],
           "frameworkReferences": {
@@ -78,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
