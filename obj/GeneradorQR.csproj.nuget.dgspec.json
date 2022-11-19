@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/dobleTr/Proyects/GeneradorQR/GeneradorQR.csproj": {}
+  },
+  "projects": {
+    "/home/dobleTr/Proyects/GeneradorQR/GeneradorQR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/dobleTr/Proyects/GeneradorQR/GeneradorQR.csproj",
+        "projectName": "GeneradorQR",
+        "projectPath": "/home/dobleTr/Proyects/GeneradorQR/GeneradorQR.csproj",
+        "packagesPath": "/home/dobleTr/.nuget/packages/",
+        "outputPath": "/home/dobleTr/Proyects/GeneradorQR/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/dobleTr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.1.2, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.10, 6.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
